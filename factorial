@@ -1,0 +1,3 @@
+read -p "Enter a number: " n
+echo factorial of $n = `seq -s '*' 1 $n | bc`
+
