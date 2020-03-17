@@ -1,0 +1,2 @@
+#!/bin/bash
+read -p "Enter a year: " y;((y%=4));[ $y -eq 0 ] && echo Leap year || echo Not Leap Year
