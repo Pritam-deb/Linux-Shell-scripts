@@ -1,4 +1,3 @@
 clear
 read -p "Enter the number: " n
-v=`sed 's/\B/&'+'/g' <<<$n | bc`
-echo The sum of the digits is $v
+echo The sum of the digits of number $n is `sed 's/\B/&'+'/g' <<<$n | bc`
